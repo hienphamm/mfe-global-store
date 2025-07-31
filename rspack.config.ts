@@ -36,6 +36,7 @@ export default defineConfig({
                     singleton: true
                 }
             },
+            dts: false,
         }),
     ].filter(Boolean),
     optimization: {
