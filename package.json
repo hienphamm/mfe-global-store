@@ -1,0 +1,22 @@
+{
+  "name": "mfe-global-store",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rspack build",
+    "dev": "rspack dev",
+    "preview": "rspack preview"
+  },
+  "devDependencies": {
+    "@module-federation/enhanced": "^0.17.1",
+    "@rspack/cli": "^1.4.10",
+    "@rspack/core": "^1.4.10",
+    "@rspack/plugin-react-refresh": "^1.4.3",
+    "@types/node": "^24.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.2"
+  }
+}
